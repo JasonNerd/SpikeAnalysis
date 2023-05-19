@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Cambria Math</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(57, 53, 98);
+background-color: rgb(246, 242, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>720</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 171, 199);</string>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>数据集</string>
+    </property>
+    <addaction name="actionOpen_directory"/>
+    <addaction name="actionMC_Maze_s"/>
+    <addaction name="actionMC_Maze_m"/>
+    <addaction name="actionMC_Maze_S"/>
+    <addaction name="actionMC_RTT"/>
+    <addaction name="actionArea2_Bump"/>
+    <addaction name="actionDMFC_RSG"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>锋值活动</string>
+    </property>
+    <addaction name="actionSpiking_Rates_Distribution"/>
+    <addaction name="actionSpike_Rasters"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>手部运动</string>
+    </property>
+    <addaction name="actionTrajectory"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <action name="actionOpen_directory">
+   <property name="text">
+    <string>MC_Maze</string>
+   </property>
+  </action>
+  <action name="actionSpiking_Rates_Distribution">
+   <property name="text">
+    <string>Spiking Rates Distribution</string>
+   </property>
+  </action>
+  <action name="actionSpike_Rasters">
+   <property name="text">
+    <string>Spike Rasters</string>
+   </property>
+  </action>
+  <action name="actionMC_Maze_s">
+   <property name="text">
+    <string>MC_Maze_L</string>
+   </property>
+  </action>
+  <action name="actionMC_Maze_m">
+   <property name="text">
+    <string>MC_Maze_M</string>
+   </property>
+  </action>
+  <action name="actionMC_RTT">
+   <property name="text">
+    <string>MC_RTT</string>
+   </property>
+  </action>
+  <action name="actionArea2_Bump">
+   <property name="text">
+    <string>Area2_Bump</string>
+   </property>
+  </action>
+  <action name="actionDMFC_RSG">
+   <property name="text">
+    <string>DMFC_RSG</string>
+   </property>
+  </action>
+  <action name="actionMC_Maze_S">
+   <property name="text">
+    <string>MC_Maze_S</string>
+   </property>
+  </action>
+  <action name="actionTrajectory">
+   <property name="text">
+    <string>Trajectory</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
